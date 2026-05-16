@@ -1,13 +1,20 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
-    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 480.000000 480.000000"
-    preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,480.000000) scale(0.100000,-0.100000)"
-fill="#currentColor" stroke="#currentColor">
-<path d="M3124 4374 c-23 -22 -25 -30 -19 -72 4 -26 9 -134 11 -240 l5 -193
+export default function HomeIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      version="1.0"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 480 480"
+      preserveAspectRatio="xMidYMid meet"
+      className={className}
+    >
+      <title>Home Icon</title>
+      <g
+        transform="translate(0.000000,480.000000) scale(0.100000,-0.100000)"
+        fill="#currentColor"
+        stroke="#currentColor"
+      >
+        <path
+          d="M3124 4374 c-23 -22 -25 -30 -19 -72 4 -26 9 -134 11 -240 l5 -193
 -118 81 c-65 45 -217 151 -337 236 -283 198 -253 195 -466 46 -143 -100 -340
 -238 -1120 -786 -157 -110 -380 -266 -496 -347 -117 -82 -223 -162 -238 -179
 -35 -42 -36 -101 -1 -135 l24 -25 361 0 360 0 0 -1125 0 -1126 25 -24 24 -25
@@ -18,6 +25,9 @@ fill="#currentColor" stroke="#currentColor">
 m-812 -36 c240 -169 498 -350 573 -402 74 -53 257 -181 406 -286 l271 -190
 -844 -3 c-464 -1 -1224 -1 -1688 0 l-845 3 327 229 c180 126 498 350 707 496
 209 147 441 310 515 363 74 53 136 96 138 96 1 1 199 -137 440 -306z m692
--2123 l0 -1060 -1130 0 -1130 0 0 1060 0 1060 1130 0 1130 0 0 -1060z"/>
-</g>
-</svg>
+-2123 l0 -1060 -1130 0 -1130 0 0 1060 0 1060 1130 0 1130 0 0 -1060z"
+        />
+      </g>
+    </svg>
+  );
+}
