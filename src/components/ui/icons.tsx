@@ -1,21 +1,20 @@
 function HomeIcon({ className }: { className?: string }) {
   return (
-    <a href="/">
-      <svg
-        version="1.0"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 480 480"
-        preserveAspectRatio="xMidYMid meet"
-        className={className}
+    <svg
+      version="1.0"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 480 480"
+      preserveAspectRatio="xMidYMid meet"
+      className={className}
+    >
+      <title>Home Icon</title>
+      <g
+        transform="translate(0,480) scale(0.1,-0.1)"
+        fill="#currentColor"
+        stroke="#currentColor"
       >
-        <title>Home Icon</title>
-        <g
-          transform="translate(0.000000,480.000000) scale(0.100000,-0.100000)"
-          fill="#currentColor"
-          stroke="#currentColor"
-        >
-          <path
-            d="M3124 4374 c-23 -22 -25 -30 -19 -72 4 -26 9 -134 11 -240 l5 -193
+        <path
+          d="M3124 4374 c-23 -22 -25 -30 -19 -72 4 -26 9 -134 11 -240 l5 -193
 -118 81 c-65 45 -217 151 -337 236 -283 198 -253 195 -466 46 -143 -100 -340
 -238 -1120 -786 -157 -110 -380 -266 -496 -347 -117 -82 -223 -162 -238 -179
 -35 -42 -36 -101 -1 -135 l24 -25 361 0 360 0 0 -1125 0 -1126 25 -24 24 -25
@@ -27,31 +26,29 @@ m-812 -36 c240 -169 498 -350 573 -402 74 -53 257 -181 406 -286 l271 -190
 -844 -3 c-464 -1 -1224 -1 -1688 0 l-845 3 327 229 c180 126 498 350 707 496
 209 147 441 310 515 363 74 53 136 96 138 96 1 1 199 -137 440 -306z m692
 -2123 l0 -1060 -1130 0 -1130 0 0 1060 0 1060 1130 0 1130 0 0 -1060z"
-          />
-        </g>
-      </svg>
-    </a>
+        />
+      </g>
+    </svg>
   );
 }
 
 function BlogIcon({ className }: { className?: string }) {
   return (
-    <a href="/blogs">
-      <svg
-        version="1.0"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 480 480"
-        preserveAspectRatio="xMidYMid meet"
-        className={className}
+    <svg
+      version="1.0"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 480 480"
+      preserveAspectRatio="xMidYMid meet"
+      className={className}
+    >
+      <title>blog icon</title>
+      <g
+        transform="translate(0,480) scale(0.1,-0.1)"
+        fill="#currentColor"
+        stroke="#currentColor"
       >
-        <title>blog icon</title>
-        <g
-          transform="translate(0.000000,480.000000) scale(0.100000,-0.100000)"
-          fill="#currentColor"
-          stroke="#currentColor"
-        >
-          <path
-            d="M693 4083 l-23 -22 0 -1744 c0 -959 -3 -1771 -6 -1805 -6 -56 -5 -62
+        <path
+          d="M693 4083 l-23 -22 0 -1744 c0 -959 -3 -1771 -6 -1805 -6 -56 -5 -62
 19 -86 l26 -26 1439 0 c1379 0 1441 1 1462 18 l23 19 -2 529 -2 529 163 154
 c367 348 598 575 598 588 0 8 -73 91 -162 185 -90 94 -188 197 -218 229 -39
 42 -63 59 -81 59 -18 0 -61 -33 -160 -124 l-134 -124 -5 804 c-4 711 -7 805
@@ -62,56 +59,54 @@ c367 348 598 575 598 588 0 8 -73 91 -162 185 -90 94 -188 197 -218 229 -39
 -818z m574 -752 c53 -55 96 -104 96 -108 0 -6 -717 -694 -957 -919 -54 -50
 -58 -52 -194 -86 -76 -19 -139 -32 -139 -28 0 3 20 71 43 151 l43 145 79 75
 c44 41 127 120 185 176 387 371 731 694 738 694 5 0 53 -45 106 -100z"
-          />
-          <path
-            d="M1190 3417 l0 -217 103 0 c78 0 112 5 144 19 50 23 63 45 63 106 0
+        />
+        <path
+          d="M1190 3417 l0 -217 103 0 c78 0 112 5 144 19 50 23 63 45 63 106 0
 39 -5 52 -28 73 l-28 25 23 23 c17 17 23 35 23 64 0 85 -38 108 -196 117
 l-104 6 0 -216z m198 127 c26 -18 28 -50 5 -76 -12 -13 -30 -18 -70 -18 l-53
 0 0 48 c0 27 3 52 7 55 12 13 89 7 111 -9z m12 -174 c24 -24 26 -57 3 -82 -12
 -13 -31 -18 -75 -18 l-58 0 0 53 c0 30 3 57 7 60 3 4 28 7 55 7 35 0 54 -6 68
 -20z"
-          />
-          <path
-            d="M1750 3416 l0 -216 135 0 135 0 0 35 0 35 -90 0 -90 0 -2 178 -3 177
+        />
+        <path
+          d="M1750 3416 l0 -216 135 0 135 0 0 35 0 35 -90 0 -90 0 -2 178 -3 177
 -42 3 -43 3 0 -215z"
-          />
-          <path
-            d="M2316 3607 c-61 -34 -91 -101 -90 -197 1 -137 63 -210 179 -210 77 0
+        />
+        <path
+          d="M2316 3607 c-61 -34 -91 -101 -90 -197 1 -137 63 -210 179 -210 77 0
 120 25 153 90 20 39 23 57 20 136 -3 77 -7 96 -28 127 -50 74 -157 98 -234 54z
 m149 -73 c28 -30 40 -94 31 -162 -22 -163 -186 -133 -186 33 0 68 16 121 43
 140 34 24 84 19 112 -11z"
-          />
-          <path
-            d="M2930 3619 c-64 -26 -99 -83 -107 -177 -9 -110 26 -190 98 -227 44
+        />
+        <path
+          d="M2930 3619 c-64 -26 -99 -83 -107 -177 -9 -110 26 -190 98 -227 44
 -23 146 -19 199 8 l45 22 3 88 3 87 -86 0 -85 0 0 -30 c0 -28 2 -30 40 -30
 l40 0 0 -40 c0 -34 -4 -42 -26 -50 -43 -17 -72 -11 -106 19 -33 29 -33 30 -33
 124 0 87 2 98 24 121 19 20 34 26 68 26 39 0 46 -4 64 -35 18 -31 26 -35 61
 -35 36 0 39 2 33 23 -24 77 -79 117 -160 116 -27 0 -61 -5 -75 -10z"
-          />
-        </g>
-      </svg>
-    </a>
+        />
+      </g>
+    </svg>
   );
 }
 
 function PlotManagementIcon({ className }: { className?: string }) {
   return (
-    <a href="/dashboard">
-      <svg
-        version="1.0"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 480 480"
-        preserveAspectRatio="xMidYMid meet"
-        className={className}
+    <svg
+      version="1.0"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 480 480"
+      preserveAspectRatio="xMidYMid meet"
+      className={className}
+    >
+      <title>plot management icon</title>
+      <g
+        transform="translate(0,480) scale(0.1,-0.1)"
+        fill="#currentColor"
+        stroke="#currentColor"
       >
-        <title>plot management icon</title>
-        <g
-          transform="translate(0.000000,480.000000) scale(0.100000,-0.100000)"
-          fill="#currentColor"
-          stroke="#currentColor"
-        >
-          <path
-            d="M4174 4596 c-31 -17 -55 -38 -50 -44 5 -5 -100 -139 -113 -144 -7 -3
+        <path
+          d="M4174 4596 c-31 -17 -55 -38 -50 -44 5 -5 -100 -139 -113 -144 -7 -3
 -54 -58 -184 -217 -29 -35 -72 -87 -97 -117 -25 -30 -65 -79 -90 -109 -25 -31
 -66 -80 -92 -109 -27 -29 -48 -56 -48 -61 0 -4 -45 -56 -100 -115 -55 -59
 -100 -111 -100 -115 0 -5 -21 -32 -47 -61 -27 -29 -70 -80 -98 -114 -109 -134
@@ -160,47 +155,44 @@ c110 -21 255 -68 447 -146 l152 -63 0 -874 c0 -564 -3 -872 -10 -868 -17 10
 -79 126 -136 168 l-38 27 96 7 c54 4 108 10 121 14 43 11 606 13 703 1z
 m-1004 -165 c60 -30 87 -56 108 -107 17 -44 11 -50 -59 -62 -99 -16 -491 -4
 -511 17 -9 8 34 92 57 113 58 53 96 63 230 64 114 0 130 -2 175 -25z"
-          />
-        </g>
-      </svg>
-    </a>
+        />
+      </g>
+    </svg>
   );
 }
 
 function AboutIcon({ className }: { className?: string }) {
   return (
-    <a href="/about">
-      <svg
-        version="1.0"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 480 480"
-        preserveAspectRatio="xMidYMid meet"
-        className={className}
+    <svg
+      version="1.0"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 480 480"
+      preserveAspectRatio="xMidYMid meet"
+      className={className}
+    >
+      <title>About Icon</title>
+      <g
+        transform="translate(0,480) scale(0.1,-0.1)"
+        fill="#currentColor"
+        stroke="#currentColor"
       >
-        <title>About Icon</title>
-        <g
-          transform="translate(0.000000,480.000000) scale(0.100000,-0.100000)"
-          fill="#currentColor"
-          stroke="#currentColor"
-        >
-          <path
-            d="M2195 4125 c-337 -46 -625 -196 -885 -459 l-75 -76 35 -34 c19 -18
+        <path
+          d="M2195 4125 c-337 -46 -625 -196 -885 -459 l-75 -76 35 -34 c19 -18
 102 -95 183 -170 l148 -138 78 75 c124 118 259 201 406 248 86 27 306 38 412
 19 168 -29 303 -120 359 -242 25 -55 28 -75 29 -158 0 -84 -3 -101 -27 -146
 -49 -94 -118 -164 -321 -326 -280 -224 -373 -320 -442 -458 -53 -105 -81 -240
 -69 -331 l7 -49 288 0 289 0 0 64 c0 79 28 172 75 250 65 108 130 171 397 378
 255 198 368 329 420 488 17 52 21 89 20 180 -1 341 -144 583 -442 752 -207
 117 -589 174 -885 133z"
-          />
-          <path
-            d="M2194 1451 c-114 -42 -179 -99 -228 -201 -29 -61 -31 -72 -31 -175 0
+        />
+        <path
+          d="M2194 1451 c-114 -42 -179 -99 -228 -201 -29 -61 -31 -72 -31 -175 0
 -103 2 -114 32 -177 78 -165 258 -253 440 -214 90 19 148 52 212 122 72 79 96
 144 95 269 0 126 -23 191 -97 272 -76 83 -152 116 -277 120 -73 2 -106 -2
 -146 -16z"
-          />
-        </g>
-      </svg>
-    </a>
+        />
+      </g>
+    </svg>
   );
 }
 
