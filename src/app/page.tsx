@@ -1,13 +1,16 @@
 import Header from "@/components/ui/header";
+import Footer from "@/components/ui/footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="flex min-h-screen flex-col font-sans">
       <Header />
 
-      <div className="flex flex-col flex-1 items-center justify-center font-sans">
+      <main className="flex flex-1 flex-col items-center justify-center">
         <h1>Welcome to 素人沼 World!</h1>
-      </div>
-    </>
+      </main>
+
+      <Footer />
+    </div>
   );
 }
