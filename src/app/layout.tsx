@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Image from "next/image";
+import Footer from "@/components/ui/footer";
+import Header from "@/components/ui/header";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,7 +31,20 @@ export default function RootLayout({
       lang="ja"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col font-sans">
+        <div className="fixed inset-0 z-[-1] bg-white blur-[1vh] dark:bg-zinc-950">
+          <Image
+            src="/images/hero-bg.jpeg"
+            alt="Background Image"
+            fill
+            className="object-cover object-center opacity-55 scale-110 dark:opacity-30"
+            priority
+          />
+        </div>
+        <Header />
+        <main className="flex-1 flex flex-col relative z-0">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }

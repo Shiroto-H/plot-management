@@ -1,12 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import {
-  AboutIcon,
-  BlogIcon,
-  HomeIcon,
-  PlotManagementIcon,
-} from "@/components/ui/icons";
+import { AboutIcon, HomeIcon } from "@/components/ui/icons";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,28 +66,6 @@ export default function Header() {
               <HomeIcon className="h-34 w-34 fill-cyan-500 transition-colors group-hover:fill-cyan-400 group-active:fill-cyan-400" />
               <p className="text-lg font-bold mb-8 transition-colors text-zinc-800 group-hover:text-cyan-400 group-active:text-cyan-400">
                 ホーム
-              </p>
-            </Link>
-
-            <Link
-              href="/blogs"
-              className="group flex flex-col place-items-center-safe gap-y-4"
-              onClick={() => setIsOpen(false)}
-            >
-              <BlogIcon className="h-34 w-34 fill-cyan-500 transition-colors group-hover:fill-cyan-400 group-active:fill-cyan-400" />
-              <p className="text-lg font-bold mb-8 transition-colors text-zinc-800 group-hover:text-cyan-400 group-active:text-cyan-400">
-                Qiita記事
-              </p>
-            </Link>
-
-            <Link
-              href="/dashboard"
-              className="group flex flex-col place-items-center-safe gap-y-4"
-              onClick={() => setIsOpen(false)}
-            >
-              <PlotManagementIcon className="h-34 w-34 fill-cyan-500 transition-colors group-hover:fill-cyan-400 group-active:fill-cyan-400" />
-              <p className="text-lg font-bold mb-8 transition-colors text-zinc-800 group-hover:text-cyan-400 group-active:text-cyan-400">
-                プロット管理
               </p>
             </Link>
 
