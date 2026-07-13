@@ -1,10 +1,22 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AboutIcon, HomeIcon } from "@/components/ui/icons";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [greeting, setGreeting] = useState("");
+
+  useEffect(() => {
+    const hour = new Date().getHours();
+    if (hour >= 5 && hour < 12) {
+      setGreeting("おはようございます！素人沼のサイトへようこそ！");
+    } else if (hour >= 12 && hour < 18) {
+      setGreeting("こんにちは！素人沼のサイトへようこそ！");
+    } else {
+      setGreeting("こんばんは！素人沼のサイトへようこそ！");
+    }
+  }, []);
 
   return (
     <>
@@ -47,9 +59,19 @@ export default function Header() {
         </button>
       </div>
 
+      {/* 挨拶文の表示エリア（右上に配置） */}
+      <div className="fixed top-0 right-0 z-50 p-6 pointer-events-none flex items-center h-10 box-content">
+        <p
+          className={`text-xl font-bold text-zinc-800 dark:text-zinc-100 transition-opacity duration-500 ${isOpen ? "blur-[0.35vh]" : ""}`}
+          style={{ opacity: greeting ? 1 : 0 }}
+        >
+          {greeting}
+        </p>
+      </div>
+
       {/* 2. 画面全体を覆う「すりガラス」の箱 */}
       {isOpen && (
-        <div className="fixed inset-0 z-40 flex flex-col place-items-center-safe overflow-auto  bg-slate-100/45 backdrop-blur-sm">
+        <div className="fixed inset-0 z-40 flex flex-col place-items-center-safe overflow-auto  bg-slate-100/45 backdrop-blur-[0.35vh]">
           <button
             type="button"
             className="fixed inset-0 h-full w-full cursor-default"
